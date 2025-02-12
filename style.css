@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6e6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    color: #ff4d6d;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;  /* Centers buttons horizontally */
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+#yesButton, #noButton {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0 15px;  /* Adds equal spacing between buttons */
+}
+
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yesButton {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+#noButton {
+    background-color: #666;
+    color: white;
+    position: absolute; /* Allows movement */
+}
+
+.hidden {
+    display: none;
+}
+
+#response {
+    margin-top: 50px;
+    font-size: 24px;
+    color: #ff4d6d;
+}
+
+.tenor-gif-embed {
+    max-width: 200px;  
+    margin: 0 auto; 
+}
+
+.pingu-gif {
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+}
