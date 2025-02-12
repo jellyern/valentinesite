@@ -16,7 +16,7 @@ h1 {
 
 .button-container {
     display: flex;
-    justify-content: center;  /* Centers buttons horizontally */
+    justify-content: center; 
     align-items: center;
     margin-top: 20px;
     
@@ -28,7 +28,7 @@ h1 {
     border: none;
     cursor: pointer;
     transition: 0.3s;
-    margin: 0 15px;  /* Adds equal spacing between buttons */
+    margin: 0 15px;  
 }
 
 
@@ -48,7 +48,7 @@ button {
 #noButton {
     background-color: #666;
     color: white;
-    position: absolute; /* Allows movement */
+    position: absolute; 
 }
 
 .hidden {
